@@ -1,0 +1,21 @@
+# Write a function that takes a name and returns "Hello, <name>!".
+a = input("Enter your name: ")
+print(f"Hello {a}")
+print("Hello" ,a)
+
+# Write a function that takes a string and returns it in all caps.
+name1 = input("Enter your name: ")
+upper_name = name1.upper()
+print("Your name is: ",name1.upper())
+
+# Slicing Challenge: Given "PythonIsFun", return just "Is"
+Given = "PythonIsFun"
+slicing = Given[6:8]
+print(f"{slicing}")
+# OR
+print(f"{Given[6:8]}")
+
+# Math: Write a function that takes a radius and returns the area of a circle.
+radius = float(input("Enter radius: "))
+area = 3.1416*radius*radius
+print(f"{area}")
