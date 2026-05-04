@@ -1,0 +1,39 @@
+# Traffic Light: A function that takes "green" and returns "yellow", "yellow" returns "red", and "red" returns "green"
+color = input("Enter green or yellow or red: ").lower()
+if color == "green":
+    print("Yellow")
+elif color == "yellow":
+    print("red")
+elif color == "red":
+    print("green")
+else:
+    print("Enter correct color")
+
+# Even or Odd: Return "Even" if a number is even, and "Odd" if it’s odd
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print(f"{num} is even")
+else:
+    print(f"{num} is odd")
+
+
+# Calculator: A function that takes two numbers and an operator ("+", "-", "*", "/") and returns the result.
+
+op = input("press + or - or * or /: ")
+first = int(input("Enter first number: "))
+second = int(input("Enter second number: "))
+if op == "+":
+    add = first + second
+    print(f"{first} + {second} is: {add}")
+elif op == "-":
+    sub = first - second
+    print(f"{first} - {second} is: {sub}") 
+elif op == "*":
+    mul = first * second
+    print(f"{first} * {second} is: {mul}")
+elif op == "/":
+    div = first / second
+    print(f"{first} / {second} is: {div}")
+else:
+    print("Enter correct number")
+    
