@@ -19,7 +19,7 @@ else:
 
 # Calculator: A function that takes two numbers and an operator ("+", "-", "*", "/") and returns the result.
 
-op = input("press + or - or * or /: ")
+op = input("enter + or - or * or /: ")
 first = int(input("Enter first number: "))
 second = int(input("Enter second number: "))
 if op == "+":
