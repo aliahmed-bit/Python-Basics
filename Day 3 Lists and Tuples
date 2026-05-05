@@ -1,0 +1,30 @@
+# Write a function that returns the sum of all numbers in a list.
+lis = []
+lis = int(input("Enter number in list: "))
+sum = 0
+for i in lis:
+    sum = sum + i
+print(f"The sum of all numbers in list is: {sum}") 
+
+
+# Given a list of strings, return a new list containing only strings longer than 5 characters
+str_list = ["green", "full", "natural", "thomas"]
+a = []
+for i in str_list:
+    if len(i) > 5:
+        a.append(i)
+print(a)
+
+
+
+# The Goal: Create a "Guest List" for a party.
+# Start with an empty list: guests = [].
+# Add four names to the list.
+# The second person on the list can't make it. Replace their name with a new guest.
+# The last person on the list brought a friend. Add "Friend" to the end of the list
+
+guests = []
+guests = ["waseem", "Badami", "Naji", "Hannjjiii"]
+guests[1] = "Shumaila"
+guests.append("Friend")
+print(guests)
