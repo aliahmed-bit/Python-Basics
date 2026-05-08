@@ -1,0 +1,31 @@
+# reverse of the list_
+li = [-2, 1, -5] 
+rev = []
+for i in li:
+    rev.append(i*-1)
+print(f"Reversed list is {rev}")
+
+
+#  Write a function that takes a number n and returns the sum of 
+# every number from 1 to n (e.g., n=3 returns 1+2+3 = 6).
+sum = 0
+user= int(input("Enter a number: "))
+for i in range(user+1):
+    sum = sum + i
+print(f"The sum of all smaller number is: {sum}")
+
+
+# Well the pattern wasn't in the exercise. You made it, So did I but differnt, because of you.
+i = 5
+while i >=1:
+    print("*"*i)
+    i = i-1
+
+
+#  Create a function that counts how many times the letter "a" appears in a string.
+count = 0
+user = input("Enter a name: ").lower()
+for i in user:
+    if "a" in i:
+        count = count + 1
+print(f"a appears {count} times in {user}")
